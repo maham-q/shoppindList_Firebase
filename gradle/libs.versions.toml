@@ -1,0 +1,52 @@
+[versions]
+activityVersion = "1.7.2"
+agp = "8.5.2"
+firebaseAuthVersion = "22.1.0"
+firebaseDatabaseVersion = "20.2.2"
+firebaseFirestoreVersion = "24.8.1"
+firebaseStorageVersion = "20.2.2"
+firebaseUiDatabase = "8.0.1"
+firebaseUiFirestore = "8.0.0"
+firebaseUiFirestoreVersion = "8.0.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+firebaseAuth = "23.1.0"
+picasso = "2.8"
+playServicesTasks = "18.2.0"
+firebaseFirestore = "25.1.1"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+firebaseStorage = "21.0.1"
+
+[libraries]
+activity-v172 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+firebase-auth-v2210 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-database-v2022 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-firestore-v2481 = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestoreVersion" }
+firebase-storage-v2022 = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorageVersion" }
+firebase-ui-database = { module = "com.firebaseui:firebase-ui-database", version.ref = "firebaseUiDatabase" }
+firebase-ui-firestore = { module = "com.firebaseui:firebase-ui-firestore", version.ref = "firebaseUiFirestore" }
+firebase-ui-firestore-v801 = { module = "com.firebaseui:firebase-ui-firestore", version.ref = "firebaseUiFirestoreVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+
